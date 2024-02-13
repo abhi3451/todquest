@@ -1,0 +1,20 @@
+.bigbox{
+    width: 860px;
+    height: 234px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 60px;
+
+}
+.rectangle{
+    width: 273.33px;
+    height: 234px;
+    padding: 24px 16px 24px 16px;
+    border-radius: 16px;
+    border: 1px;
+    gap: 24px;
+   background-color: white;
+border: 1px solid #ECECEC
+}

@@ -1,0 +1,7 @@
+.horizontalbar{
+    width: 10px;
+    height: 2px;
+    color: red;
+    margin-bottom: 20px;
+    content: '';
+}

@@ -1,0 +1,33 @@
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 36px;
+}
+.title {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+p {
+  font-family: "Metropolis";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 5px;
+}
+
+
+
+.selected p {
+   
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #F01C21;
+    ;
+  }

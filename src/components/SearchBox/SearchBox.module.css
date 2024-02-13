@@ -1,0 +1,29 @@
+.searchContainer{
+    width: 418px;
+    height: 32px;
+    padding: 2px 8px; /* Simplify padding values */
+    border-radius: 8px;
+    border: 1px solid linear-gradient(0deg, #EEEEEE, #EEEEEE); /* Correct border syntax */
+    gap: 8px;
+    background: linear-gradient(0deg, #E3E3E3, #E3E3E3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchText{
+    width: 418px;
+    height: 32px;
+    font-family: 'Metropolis'; /* Add quotes around font family with spaces */
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+     background: linear-gradient(0deg, #E3E3E3, #E3E3E3);
+     border: none;
+
+}
+
+.searchText:focus {
+    border-color: transparent; /* Hide border on focus */
+  }

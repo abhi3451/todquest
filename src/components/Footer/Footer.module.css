@@ -1,0 +1,87 @@
+.footer {
+  width: 100%;
+  height: 260px;
+  padding: 10px 10px 32px 10px;
+  gap: 8px;
+  background-color: #091431;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 196px;
+  gap: 13px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo .logopic {
+  width: 120px;
+  height: 50px;
+}
+.appImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  border-radius: 8px;
+  border: 1px;
+  cursor: pointer;
+  box-shadow: 6px 6px 60px 0px #00000012;
+}
+
+.logo p {
+  color: white;
+  font-family: "Metropolis";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+}
+.footerbox {
+  width: 145px;
+  height: 164px;
+  padding: 16px 0px 0px 0px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.footerbox h1 {
+  width: 63px;
+  height: 12px;
+  color: #f01c21;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Metropolis";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
